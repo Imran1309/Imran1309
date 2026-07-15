@@ -1,0 +1,16 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated contribution snake output
+output/
