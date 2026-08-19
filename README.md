@@ -43,7 +43,7 @@
       </ul>
     </td>
     <td width="35%" align="center" style="border: none; vertical-align: center;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Imran1309&layout=compact&theme=vision-friendly-dark&hide_border=true&bg_color=00000000&title_color=FACC15&text_color=ffffff" alt="Top Langs" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Imran1309&layout=compact&theme=default&title_color=D4AF37&text_color=333333" alt="Top Langs" />
     </td>
   </tr>
 </table>
@@ -63,10 +63,10 @@
 <!-- GitHub Streak & Activity Graph (Pink Theme) -->
 <h2>ðŸ“Š GitHub Activity</h2>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Imran1309&theme=vision-friendly-dark&hide_border=true&background=00000000&ring=FACC15&fire=FFB74D&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=FF9800&sideLabels=FF9800&dates=ffffff" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Imran1309&theme=default&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=D4AF37" alt="GitHub Streak" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Imran1309&bg_color=00000000&color=FACC15&line=FFB74D&point=FF9800&area=true&hide_border=true" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Imran1309&bg_color=ffffff&color=333333&line=D4AF37&point=D4AF37&area=true" alt="Activity Graph" />
 </p>
 
 <br>
