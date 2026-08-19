@@ -3,22 +3,35 @@ $base64 = [convert]::ToBase64String([IO.File]::ReadAllBytes("assets/im.png"))
 $svg = @"
 <svg width="100%" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background color based on the uploaded image -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#9c6d89"/>
-      <stop offset="100%" stop-color="#855b74"/>
+    <!-- Dark Grey Panel Background -->
+    <linearGradient id="dark-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+
+    <!-- Golden/Orange Strip Gradient -->
+    <linearGradient id="neon-strip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb74d"/>
+      <stop offset="50%" stop-color="#ff9800"/>
+      <stop offset="100%" stop-color="#ffb74d"/>
     </linearGradient>
     
-    <clipPath id="circle-clip">
-      <circle cx="150" cy="125" r="75" />
+    <clipPath id="image-clip">
+      <!-- Rounded rectangle to show more of the suit -->
+      <rect x="50" y="25" width="150" height="200" rx="15" />
     </clipPath>
   </defs>
 
   <style>
     @keyframes goldGlow {
-      0% { filter: drop-shadow(0px 0px 4px rgba(255, 215, 0, 0.4)) drop-shadow(0px 0px 8px rgba(255, 215, 0, 0.2)); }
-      50% { filter: drop-shadow(0px 0px 12px rgba(255, 215, 0, 0.9)) drop-shadow(0px 0px 25px rgba(255, 215, 0, 0.7)) drop-shadow(0px 0px 40px rgba(255, 215, 0, 0.5)); }
-      100% { filter: drop-shadow(0px 0px 4px rgba(255, 215, 0, 0.4)) drop-shadow(0px 0px 8px rgba(255, 215, 0, 0.2)); }
+      0% { filter: drop-shadow(0px 0px 4px rgba(255, 183, 77, 0.4)) drop-shadow(0px 0px 8px rgba(255, 183, 77, 0.2)); }
+      50% { filter: drop-shadow(0px 0px 12px rgba(255, 183, 77, 0.9)) drop-shadow(0px 0px 25px rgba(255, 152, 0, 0.7)) drop-shadow(0px 0px 40px rgba(255, 152, 0, 0.5)); }
+      100% { filter: drop-shadow(0px 0px 4px rgba(255, 183, 77, 0.4)) drop-shadow(0px 0px 8px rgba(255, 183, 77, 0.2)); }
+    }
+    @keyframes verticalStripPulse {
+      0% { filter: drop-shadow(0px 0px 10px #ff9800) drop-shadow(0px 0px 20px #ffb74d); opacity: 0.8; }
+      50% { filter: drop-shadow(0px 0px 20px #ff9800) drop-shadow(0px 0px 40px #ffb74d); opacity: 1; }
+      100% { filter: drop-shadow(0px 0px 10px #ff9800) drop-shadow(0px 0px 20px #ffb74d); opacity: 0.8; }
     }
     .text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -29,15 +42,24 @@ $svg = @"
       dominant-baseline: middle;
       animation: goldGlow 2.5s ease-in-out infinite;
     }
+    .vertical-strip { animation: verticalStripPulse 2s infinite alternate; }
   </style>
 
   <!-- Waving Background Shape -->
-  <path d="M0 0 L800 0 L800 215 Q400 260 0 205 Z" fill="url(#bg)" />
+  <path d="M0 0 L800 0 L800 215 Q400 260 0 205 Z" fill="url(#dark-wall)" />
   
-  <image href="data:image/png;base64,$base64" x="75" y="50" width="150" height="150" clip-path="url(#circle-clip)" />
+  <!-- Horizontal Seams for Panels -->
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#111" stroke-width="2" />
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#111" stroke-width="2" />
+  
+  <!-- Vertical Glowing Strips matching the photo -->
+  <rect x="250" y="0" width="5" height="235" fill="url(#neon-strip)" class="vertical-strip" />
+  <rect x="680" y="0" width="5" height="205" fill="url(#neon-strip)" class="vertical-strip" />
+  
+  <image href="data:image/png;base64,`$base64" x="50" y="25" width="150" height="200" clip-path="url(#image-clip)" preserveAspectRatio="xMidYMid slice" />
   
   <!-- Glowing Text -->
-  <text x="475" y="125" class="text">Hi myself imran</text>
+  <text x="465" y="125" class="text">Hi myself imran</text>
 </svg>
 "@
 
