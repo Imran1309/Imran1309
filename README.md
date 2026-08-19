@@ -2,8 +2,7 @@
 
 <!-- Responsive Light/Dark Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=EF93C4&height=250&section=header&text=Welcome%20to%20My%20Profile!&fontSize=70&fontAlignY=35&fontColor=ffffff&descAlignY=55&descAlign=50">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF69B4&height=250&section=header&text=Welcome%20to%20My%20Profile!&fontSize=70&fontAlignY=35&fontColor=ffffff&descAlignY=55&descAlign=50" alt="Banner" width="100%">
+  <img src="banner.svg" alt="Banner" width="100%">
 </picture>
 
 # Hey there, I'm IMRAN S S 👋
