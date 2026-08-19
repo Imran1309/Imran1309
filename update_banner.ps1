@@ -17,8 +17,7 @@ $svg = @"
     </linearGradient>
     
     <clipPath id="image-clip">
-      <!-- Rounded rectangle to show more of the suit -->
-      <rect x="50" y="25" width="150" height="200" rx="15" />
+      <rect x="40" y="15" width="160" height="220" rx="15" />
     </clipPath>
   </defs>
 
@@ -52,11 +51,7 @@ $svg = @"
   <line x1="0" y1="80" x2="800" y2="80" stroke="#111" stroke-width="2" />
   <line x1="0" y1="160" x2="800" y2="160" stroke="#111" stroke-width="2" />
   
-  <!-- Vertical Glowing Strips matching the photo -->
-  <rect x="250" y="0" width="5" height="235" fill="url(#neon-strip)" class="vertical-strip" />
-  <rect x="680" y="0" width="5" height="205" fill="url(#neon-strip)" class="vertical-strip" />
-  
-  <image href="data:image/png;base64,$base64" x="50" y="25" width="150" height="200" clip-path="url(#image-clip)" preserveAspectRatio="xMidYMid slice" />
+  <image href="data:image/png;base64,$base64" x="40" y="15" width="160" height="220" clip-path="url(#image-clip)" preserveAspectRatio="xMidYMid slice" />
   
   <!-- Glowing Text -->
   <text x="465" y="125" class="text">Hi myself imran</text>
