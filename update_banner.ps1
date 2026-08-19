@@ -56,7 +56,7 @@ $svg = @"
   <rect x="250" y="0" width="5" height="235" fill="url(#neon-strip)" class="vertical-strip" />
   <rect x="680" y="0" width="5" height="205" fill="url(#neon-strip)" class="vertical-strip" />
   
-  <image href="data:image/png;base64,`$base64" x="50" y="25" width="150" height="200" clip-path="url(#image-clip)" preserveAspectRatio="xMidYMid slice" />
+  <image href="data:image/png;base64,$base64" x="50" y="25" width="150" height="200" clip-path="url(#image-clip)" preserveAspectRatio="xMidYMid slice" />
   
   <!-- Glowing Text -->
   <text x="465" y="125" class="text">Hi myself imran</text>
