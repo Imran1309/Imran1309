@@ -1,11 +1,11 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- Responsive Light/Dark Banner -->
 <picture>
-  <img src="banner.svg" alt="Banner" width="100%">
+  <img src="assets/banner.png" alt="Banner" width="100%">
 </picture>
 
-# Hey there, I'm IMRAN S S ‹
+# Hey there, I'm IMRAN S S 👋
 
 <!-- Animated Typing Text -->
 <a href="https://git.io/typing-svg">
@@ -14,44 +14,33 @@
 
 <br><br>
 
-<!-- Pink GitHub Badges -->
+<!-- GitHub Badges -->
 <p align="center">
   <a href="https://github.com/Imran1309?tab=followers">
     <img src="https://img.shields.io/github/followers/Imran1309?style=for-the-badge&color=FACC15&logo=github&logoColor=white" alt="Followers" />
   </a>
   <a href="https://github.com/Imran1309?tab=repositories">
-    <img src="https://img.shields.io/github/stars/Imran1309?style=for-the-badge&color=FFB74D&logo=github&logoColor=white" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/Imran1309?style=for-the-badge&color=D4AF37&logo=github&logoColor=white" alt="Stars" />
   </a>
   <a href="https://github.com/Imran1309">
-    <img src="https://komarev.com/ghpvc/?username=Imran1309&style=for-the-badge&color=FF9800&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=Imran1309&style=for-the-badge&color=FACC15&label=PROFILE+VIEWS" alt="Profile Views" />
   </a>
 </p>
 
 <br>
 
-<!-- About Me Section -->
-<table align="center" style="border: none;">
-  <tr style="border: none;">
-    <td width="65%" style="border: none; vertical-align: top; text-align: left;">
-      <h2 align="center">âœ¨ About Me</h2>
-      <ul>
-        <li>ðŸ”­ Iâ€™m currently working on <strong><a href="https://www.homeandmeconstructions.com/">Home & Me</a>, <a href="http://nammauto.in/">Nammauto</a>, and <a href="https://pack-yours.vercel.app/">Pack Yours</a></strong></li>
-        <li>ðŸŒ Check out my main portfolio: <strong><a href="https://portfolioimranss.vercel.app/">portfolioimranss.vercel.app</a></strong></li>
-        <li>ðŸŒ± Iâ€™m currently learning <strong>Advanced Full-Stack Technologies</strong></li>
-        <li>ðŸ‘¯ Iâ€™m looking to collaborate on <strong>Open Source & Innovative Web Apps</strong></li>
-        <li>ðŸ“« How to reach me: <strong>imranss1309@gmail.com</strong></li>
-      </ul>
-    </td>
-    <td width="35%" align="center" style="border: none; vertical-align: center;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Imran1309&layout=compact&theme=default&title_color=D4AF37&text_color=333333" alt="Top Langs" />
-    </td>
-  </tr>
-</table>
+## ✨ About Me
+
+🔭 I’m currently working on **[Home & Me](https://www.homeandmeconstructions.com/)**, **[Nammauto](http://nammauto.in/)**, and **[Pack Yours](https://pack-yours.vercel.app/)**  
+🌐 Check out my main portfolio: **[portfolioimranss.vercel.app](https://portfolioimranss.vercel.app/)**  
+🌱 I’m currently learning **Advanced Full-Stack Technologies**  
+👯 I’m looking to collaborate on **Open Source & Innovative Web Apps**  
+📫 How to reach me: **imranss1309@gmail.com**
 
 <br>
 
-<!-- Tech Stack -->
-<h2>ðŸš€ Tech Stack</h2>
+## 🚀 Tech Stack
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,postgresql,git,github,vscode,docker,aws,figma&perline=8" alt="My Skills" />
@@ -60,19 +49,28 @@
 
 <br>
 
-<!-- GitHub Streak & Activity Graph (Pink Theme) -->
-<h2>ðŸ“Š GitHub Activity</h2>
+## 📈 GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Imran1309&theme=default&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=D4AF37" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Imran1309&bg_color=ffffff&color=333333&line=D4AF37&point=D4AF37&area=true" alt="Activity Graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Imran1309&show_icons=true&theme=tokyonight&title_color=FACC15&icon_color=FACC15&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Imran1309&layout=compact&theme=tokyonight&title_color=FACC15&hide_border=true" alt="Top Langs" />
 </p>
 
 <br>
 
-<!-- Contribution Snake -->
-<h2>ðŸ Contribution Snake</h2>
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Imran1309&theme=tokyonight&ring=FACC15&fire=FACC15&currStreakLabel=FACC15&sideLabels=FACC15&hide_border=true" alt="GitHub Streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Imran1309&bg_color=1a1b27&color=c0caf5&line=FACC15&point=FACC15&area=true&hide_border=true" alt="Activity Graph" />
+</p>
+
+<br>
+
+## 🐍 Contribution Snake
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Imran1309/Imran1309/gh-pages/github-contribution-grid-snake-dark.svg">
@@ -83,11 +81,11 @@
 
 <br>
 
-<!-- Connect Section -->
-<h2>ðŸ”— Connect With Me</h2>
+## 🔗 Connect With Me
+
 <p align="center">
   <a href="https://portfolioimranss.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-1a1b27?style=for-the-badge&logo=vercel&logoColor=white&borderColor=FACC15" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/imran-s-s-13i09/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -99,10 +97,10 @@
 
 <br>
 
-<!-- Pink Capsule Render Footer -->
+<!-- Footer -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=FACC15&height=150&section=footer">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFB74D&height=150&section=footer" alt="Footer" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FACC15&height=150&section=footer" alt="Footer" width="100%">
 </picture>
 
 </div>
