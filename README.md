@@ -5,7 +5,7 @@
   <img src="banner.svg" alt="Banner" width="100%">
 </picture>
 
-# Hey there, I'm IMRAN S S ðŸ‘‹
+# Hey there, I'm IMRAN S S ‹
 
 <!-- Animated Typing Text -->
 <a href="https://git.io/typing-svg">
