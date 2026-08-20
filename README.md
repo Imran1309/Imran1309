@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- Responsive Light/Dark Banner -->
 <picture>
-  <img src="assets/banner.png" alt="Banner" width="100%">
+  <img src="banner.svg" alt="Banner" width="100%">
 </picture>
 
 # Hey there, I'm IMRAN S S 👋
